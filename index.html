@@ -27,22 +27,22 @@
                 <div class="row pl-2 pt-2">
                     <div class="col-sm-1 pl-0 ml-1">
                         <div class="icon rounded">
-                            <div data-toggle="tooltip" data-placement="bottom" title="HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet. The markup tells web browsers how to display a web page's words and images." class="rounded" style="background-image: url('html.png'); background-size: contain; background-repeat: no-repeat; width: 100%; height: 100%;"></div>
+                            <div data-toggle="tooltip" data-placement="bottom" title="HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet. The markup tells web browsers how to display a web page's words and images." class="rounded magic-hover magic-hover__square" style="background-image: url('html.png'); background-size: contain; background-repeat: no-repeat; width: 100%; height: 100%;"></div>
                         </div>
                     </div>
                     <div class="col-sm-1 pl-0 ml-1">
                         <div class="icon rounded">
-                            <div data-toggle="tooltip" data-placement="bottom" title="Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript." class="rounded" style="background-image: url('css.png'); background-size: contain; background-repeat: no-repeat; width: 100%; height: 100%;"></div>
+                            <div data-toggle="tooltip" data-placement="bottom" title="Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript." class="rounded magic-hover magic-hover__square" style="background-image: url('css.png'); background-size: contain; background-repeat: no-repeat; width: 100%; height: 100%;"></div>
                         </div>
                     </div>
                     <div class="col-sm-1 pl-0 ml-1">
                         <div class="icon rounded">
-                            <div data-toggle="tooltip" data-placement="bottom" title="PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites. It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server." class="rounded" style="background-image: url('php.png'); background-size: contain; background-repeat: no-repeat; width: 100%; height: 100%;"></div>
+                            <div data-toggle="tooltip" data-placement="bottom" title="PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites. It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server." class="rounded magic-hover magic-hover__square" style="background-image: url('php.png'); background-size: contain; background-repeat: no-repeat; width: 100%; height: 100%;"></div>
                         </div>
                     </div>
                     <div class="col-sm-1 pl-0 ml-1">
                         <div class="icon rounded">
-                            <div data-toggle="tooltip" data-placement="bottom" title="MySQL is a relational database management system based on SQL. The application is used for a wide range of purposes, including data warehousing, e-commerce, and logging applications. The most common use for mySQL however, is for the purpose of a web database." class="rounded" style="background-image: url('mysql.png'); background-size: contain; background-repeat: no-repeat; width: 100%; height: 100%;"></div>
+                            <div data-toggle="tooltip" data-placement="bottom" title="MySQL is a relational database management system based on SQL. The application is used for a wide range of purposes, including data warehousing, e-commerce, and logging applications. The most common use for mySQL however, is for the purpose of a web database." class="rounded magic-hover magic-hover__square" style="background-image: url('mysql.png'); background-size: contain; background-repeat: no-repeat; width: 100%; height: 100%;"></div>
                         </div>
                     </div>
                 </div>
@@ -119,9 +119,21 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"></script>
     <script>
         $(function () {
         $('[data-toggle="tooltip"]').tooltip()
         })
+    </script>
+    <script type="text/javascript">
+        options = {
+        "cursorOuter": "circle-basic",
+        "hoverEffect": "pointer-blur",
+        "hoverItemMove": false,
+        "defaultCursor": false,
+        "outerWidth": 41,
+        "outerHeight": 41
+        }; 
+        magicMouse(options);
     </script>
     </html>
