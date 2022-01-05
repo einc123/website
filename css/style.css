@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.discord-status {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    background-color: #fff;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 5px;
+    opacity:0.8;
+}
+
+.contact-button-header {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 30px;
+    left: 155px;
+    z-index: 1;
+    background-color: #fff;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 5px;
+    opacity:0.8;
+}
+
+.contact-button-header h1 {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 15px !important;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+.discord-status h1 {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 15px !important;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+.code h3 {
+    color: #31BA1E;
+    letter-spacing: normal;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.code p {
+    color: #31BA1E;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.button {
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:16px;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    color: #000 !important;
+    z-index:5;
+}
+
+.button-contact {
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #DCEEF3 !important;
+    font-weight: bold;
+    z-index:5;
+    margin: 4px;
+}
+
+.atag {
+    color: #000 !important;  
+    text-decoration: underline !important;
+}
